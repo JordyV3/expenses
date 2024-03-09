@@ -25,26 +25,6 @@ Currently, this app uses MVVM Architecture, which is achieved with a third-party
 - Koin for DI with PreCompose
 - Kamel (Not used but if we need to load images from the internet in future versions of the app, we include it)
 - SQLDelight 2.0.1 for local storage
-- Ktor for API support (please follow https://github.com/gastsail/ktorExpensesApi/tree/master to start the server) also see ExpensesRepoImpl to setup the BASE_URL
+- Ktor for API support (please follow https://github.com/JordyV3/expensesApi.git to start the server) also see ExpensesRepoImpl to setup the BASE_URL
 
-## Previews
-Previews are only working on the Android side, currently, we include compose preview and compose uiTooling on the build.gradle (:shared) folder only for androidMain.
-Then inside *androidApp* we create a preview folder and use the Preview right there. 
-
-Since this is a compose multiplatform project, we can preview only on the Android side, but this is not a blocker since the same view will be shown on iOS.
-
-We can create custom themes for iOS look and feel.
-
-## Explanation Video
-[![Video](https://img.youtube.com/vi/VgQPsuYD_V4/0.jpg)](https://www.youtube.com/watch?v=VgQPsuYD_V4)
-
-Feel free to add any PR that improves the app.
-
-## Full Udemy Course [Spanish]
-https://www.udemy.com/course/kotlin-multiplataforma-curso-intensivo-para-android-y-ios/
-
-## Support the project
-If you like this project you can leave your cup of coffee here 👇
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/cz3H0ZfiV)
 
